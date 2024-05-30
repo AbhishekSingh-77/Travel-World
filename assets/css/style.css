@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section Start */
+.navbar {
+    z-index: 1;
+}
+
+.bg-deepblue {
+    background: rgb(33, 3, 58);
+}
+
+.navbar-brand {
+    font-family: Arial, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 0 45px 0 0;
+}
+
+.navbar-brand:hover {
+    text-decoration: underline;
+}
+
+/* Header Section End */
+
+/* Banner Section Start */
+.banner {
+    background-image: url(../img/bannerpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-blue {
+    background-color: #5D327A;
+}
+
+.nav-pills .nav-link {
+    margin: 0px 2px;
+    color: #ffffff;
+    background-color: #ec9778;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #FF4500;
+}
+
+/* Banner Section End */
+
+/* Fun Section Start */
+.fun {
+    color: #ffffff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/funimg.jpg);
+    background-size: cover;
+    background-position: center center;
+    /* 100% 100% */
+}
+
+/* Fun Section End */
+
+/* Subscribe Section Start */
+.Subscribe {
+    color: #ffffff;
+    background-image: linear-gradient(rgba(25, 27, 142, 0.7), rgba(23, 35, 145, 0.7)), url(../img/subscibebg.jpg);
+    background-size: cover;
+    background-position: left center;
+}
+
+.subs-content {
+    text-align: center;
+    width: 50%;
+    margin-left: 45%;
+}
+
+/* Subscribe Section End */
+
+/* Destination Section Start */
+.destination {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/* Destination Section End */
